@@ -1,0 +1,10 @@
+*.egg-info/
+*.pyc
+*coverage/
+dist/
+docs/_build/
+media/
+static/
+
+# PyCharm
+.idea
