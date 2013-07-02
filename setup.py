@@ -50,8 +50,5 @@ setup(
     url="https://github.com/Celc/django-youtubeembedfield",
     packages=find_packages(),
     include_package_data=True,
-    install_requires=[
-        'django',
-        'django_libs',
-    ],
+    install_requires=['django'],
 )
