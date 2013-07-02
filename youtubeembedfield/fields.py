@@ -22,7 +22,7 @@ try:
 
     add_introspection_rules([],
         [
-            "youtubeembedfield\.models\.YouTubeEmbedField"
+            "youtubeembedfield\.fields\.YouTubeEmbedField"
         ])
 except ImportError:
     pass
