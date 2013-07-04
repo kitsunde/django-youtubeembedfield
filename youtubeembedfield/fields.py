@@ -8,7 +8,7 @@ class YouTubeEmbedField(models.URLField):
     def to_python(self, value):
         youtube_embed_url = 'https://youtube.com/embed/'
 
-        if value and value.startswith(youtube_embed_url):
+        if value and not value.startswith(youtube_embed_url):
             parsed_url = urlparse.urlparse(value)
             parse_qs = urlparse.parse_qs(parsed_url.query)
             youtube_id = parse_qs['v'][0]
