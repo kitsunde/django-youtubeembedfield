@@ -20,10 +20,10 @@ Usage
 
 Add the field to your model::
 
-    import youtubeembedfield
+    from youtubeembedfield import fields
 
     class MyAwesomeModel(models.Model):
-        youtube = youtubeembedfield.YoutubeEmbedField()
+        youtube = fields.YouTubeEmbedField()
 
 Contribute
 ----------
